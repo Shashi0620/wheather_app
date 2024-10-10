@@ -4,7 +4,6 @@ const mongoose = require('mongoose');  // For MongoDB (replace with pg for Postg
 const schema = require('./src/models/weather.schema');  // GraphQL schema
 const weatherModel = require('./src/models/weather.model')
 const cors = require('cors');
-const weatherData =  require('./weather_data')
 
 const app = express();
 app.use(cors());
@@ -19,33 +18,6 @@ app.use('/graphql', graphqlHTTP({
     schema,
     graphiql: true,
 }));
-
-app.get("/weather", (req, res) => {
-    if (!req.query.address) {
-      return res.send("Address is required");
-    }
-    weatherData(req.query.address, (error, result) => {
-      if (error) {
-        return res.send({ error: "City not found" });
-      }
-      if (!result || !result.main || !result.weather) {
-        return res.send({ error: "City not found" });
-      }
-      const weather = new weatherModel({
-        city: result.name,
-        temperature: result.main.temp,
-        weatherDescription: result.weather[0].description,
-      });
-      weather
-        .save()
-        .then(() => {
-          res.send(result);
-        })
-        .catch((err) => {
-          res.send(err);
-        });
-    });
-  });
 
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
