@@ -1,0 +1,7 @@
+2024-10-11T11:52:43.181Z [INFO]: Calling Weather API On : city = london
+2024-10-11T11:52:43.476Z [INFO]: START : Fetch Weather Details : city = london
+2024-10-11T11:52:43.477Z [INFO]: START : Saving Weather Details to DB : city = london
+2024-10-11T11:52:43.513Z [INFO]: END : Saving Weather Details to DB : city = london
+2024-10-11T11:52:43.514Z [INFO]: END : Fetch Weather Details : city = london
+2024-10-11T11:54:35.303Z [INFO]: Calling Weather API On : city = mnbnbxc
+2024-10-11T11:59:59.776Z [INFO]: Calling Weather API On : city = mnbnbxc
