@@ -7,14 +7,14 @@
 - Create the 'weather' collection using this command db.createCollection("weather")
 - Step 6: Run the application using- npm run start
   
-  # Application start
+# Application start
   <img width="449" alt="server" src="https://github.com/Shashi0620/wheather_app/blob/a9224db6e8d805ead0fc27321a4a3863c7f5dbb5/assets/app-start.png">
 
-  # Graphql
-  <img width="953" alt="Screenshot 2024-06-30 135328" src="https://github.com/Shashi0620/wheather_app/blob/a9224db6e8d805ead0fc27321a4a3863c7f5dbb5/assets/app-graphql.png.png">
+# Graphql
+  <img width="953" alt="Graphql" src="https://github.com/Shashi0620/wheather_app/blob/a9224db6e8d805ead0fc27321a4a3863c7f5dbb5/assets/app-graphql.png.png">
 
-  # Response From Graphql
-<img width="956" alt="Screenshot 2024-06-30 135419" src="https://github.com/Shashi0620/wheather_app/blob/a9224db6e8d805ead0fc27321a4a3863c7f5dbb5/assets/app-graphql-res">
+# Response From Graphql
+<img width="956" alt="Graphql Response" src="https://github.com/Shashi0620/wheather_app/blob/a9224db6e8d805ead0fc27321a4a3863c7f5dbb5/assets/app-graphql-res">
 
 # MongoDB Database
-<img width="449" alt="database" src="https://github.com/Shashi0620/wheather_app/blob/a9224db6e8d805ead0fc27321a4a3863c7f5dbb5/assets/app-mongodb.png">
+<img width="449" alt="MongoDB" src="https://github.com/Shashi0620/wheather_app/blob/afba48af23c402dc4147c2d1cfe93981852e31c2/assets/app.mongodb.png">
